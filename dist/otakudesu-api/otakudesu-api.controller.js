@@ -33,6 +33,9 @@ let OtakudesuApiController = class OtakudesuApiController {
     }
     async getAnimeDetails(res, judulAnime) {
         const resp = await this.OtakudesuApiService.getAnimeDetails(judulAnime.split('/').pop());
+        res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+        res.setHeader('Pragma', 'no-cache');
+        res.setHeader('Expires', '0');
         res.status(common_1.HttpStatus.OK).json({
             status: 200,
             message: 'Berhasil Mengambil Data !',

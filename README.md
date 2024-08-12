@@ -222,7 +222,7 @@ contoh:
                 "sinopsis": "Setiap harinya, umat manusia menghadapi ancaman yang sangat berbahaya oleh para monster yang biasa disebut dengan Kaijuu. Cerita pun berpusat kepada Kafka Hibino, seorang remaja yang bercita-cita untuk bergabung dengan JSDF atau Angkatan Pertahanan Jepang.Sayangnya, ia justru menyerah terhadap mimpi tersebut dan bergabung dengan perusahaan yang Membersihkan para Kaijuu. Dalam melaksanakan tugas tersebut, ia bertemu dengan teman masa kecilnya Bernama Mina Ashiro yang saat ini menjadi komandan di Unik 3. Awalnya, ia merasa canggung namun setelah pertemuan dengan juniornya, Reno Ichikawa yang juga memiliki impian untuk bergabung dengan JSDF, Kafka pun mencoba untuk menambah pengalamannya."
             }
         ],
-        "dataEps": [
+        "AnimeEps": [
             {
                 "title": "Kaijuu 8-gou Episode 9 Subtitle Indonesia",
                 "vidLinks": "https://otakudesu.cloud/episode/kajuu8-episode-9-sub-indo/"
@@ -403,205 +403,267 @@ contoh:
 
 ```json
 {
-    "status": 200,
-    "message": "Berhasil Mengambil Data !",
-    "data": {
-        "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
-        "releaseOn": " 11:07 pm",
-        "epsNow": "Episode 7 Subtitle Indonesia",
-        "sourceLinks": "https://desustream.me/ondesu3/index.php?id=YS8xd3NBYnFsY0M1ZzliRnFDcjg3RXFCeFJaVlN0RnltenVSZFFXWGRFWT0=",
-        "nextEpsLinks": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-8-sub-indo/",
-        "AnimeSource": [
-            {
-                "res": "Mp4 360p",
-                "dataList": [
-                    {
-                        "title": "ODFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNnJ3bmhWTEticHpUQmRtRy9ubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMnh2SENiWVRZdytnYTZFTjVLLzQ9"
-                    },
-                    {
-                        "title": "Pdrain",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqalVKYnEvYTd6bzk="
-                    },
-                    {
-                        "title": "Acefile",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSHBrbmtFS2Z5b2hqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0t6aE5YUlZkczlMTEE="
-                    },
-                    {
-                        "title": "GoFile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxMGhQMjEyRGM9"
-                    },
-                    {
-                        "title": "Mega",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUjIvYTc1UmR2SzVTeStTY213em54cUdrM3NuMTNCZExPMU5XRTFQWkp1Ukc0UElQWVpaWk80QklaUjBNdzM3V0RaYnU5bGc9PQ=="
-                    },
-                    {
-                        "title": "KFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyODZ6QVBtMGVtcTJFcCtsaFVBczZxOFpHL2pRPT0="
-                    }
-                ]
-            },
-            {
-                "res": "Mp4 480p",
-                "dataList": [
-                    {
-                        "title": "ODFiles ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNnl6Q3BQZWFINzJ6NGZ6MkRubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMnh2Yk1iWVRZdytnYTZFTjVLLzQ9"
-                    },
-                    {
-                        "title": "Pdrain ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqbnNLV3JmbXpSa08="
-                    },
-                    {
-                        "title": "Acefile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSHBrbmtFS1BXb2hqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0t6aFJaUlZkczlMTEE="
-                    },
-                    {
-                        "title": "GoFile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxMGhQMjEyRGM9"
-                    },
-                    {
-                        "title": "Mega ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUmlQYXI4RFpuYzR5eTNtVWZ3am1ObW1nOWdRZHJBNS9UMWRhbXR2ZFN3VWFFS0tuRWJKQnQyMDRnSDBRSS9JR2xMN3lheFE9PQ=="
-                    },
-                    {
-                        "title": "KFiles ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStxai9EWXBubUtGdGtVLytsaFVBczZxOFpHL2pRPT0="
-                    }
-                ]
-            },
-            {
-                "res": "Mp4 720p",
-                "dataList": [
-                    {
-                        "title": "ODFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNnoxeXNKZGJienhDOFEzanpubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMnh2WEdiWVRZdytnYTZFTjVLLzQ9"
-                    },
-                    {
-                        "title": "Pdrain",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZ1JOVzVQRG13Y3A="
-                    },
-                    {
-                        "title": "Acefile",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSHBrbmtFS3ZXaGhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0t6aGRUUlZkczlMTEE="
-                    },
-                    {
-                        "title": "GoFile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxMGhQMjEyRGM9"
-                    },
-                    {
-                        "title": "Mega",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUnVmVzBrUmR4WnBleS96Y2gyV3FHN1UwRG5FaFJYc0RNeHFLaW9KOXp3emk0Sko3cFViVU82R3dIQlVOejQ2NjNGb2ZiK3c9PQ=="
-                    },
-                    {
-                        "title": "KFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStySTR3OGZreitQdEU5YytsaFVBczZxOFpHL2pRPT0="
-                    }
-                ]
-            },
-            {
-                "res": "MKV 480p",
-                "dataList": [
-                    {
-                        "title": "ODFiles ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNnZrVDFWS2ZINDJTUUFtSDNubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMnhvK2ZLOERPbnVnQXEwQjdhUG9TTTFnPQ=="
-                    },
-                    {
-                        "title": "Pdrain ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqanBwTDYzWit5UWI="
-                    },
-                    {
-                        "title": "Acefile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSHBrbmtFS1BTZ2hqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0t6azBLQXhONXFiTFpNSitB"
-                    },
-                    {
-                        "title": "GoFile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxMGhQMjEyRGM9"
-                    },
-                    {
-                        "title": "Mega ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUm9mV3M2WDljU0k2eThCTVA1Mm1iZ2hFYTRRcFVYUHJsenFTYzBiOVFqZ1M3TTVUK1VvMWEreGtpQjB4NHhyT2JicG1qMlE9PQ=="
-                    },
-                    {
-                        "title": "KFiles ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyRHhpTUdtVitMbkg4SCtsaFVBczZxOFpHL2pRPT0="
-                    }
-                ]
-            },
-            {
-                "res": "MKV 720p",
-                "dataList": [
-                    {
-                        "title": "ODFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNndrRFlLYy9Ia3dqc1Eyei9ubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMnhvK2ZLOFBFbnVnQXEwQjdhUG9TTTFnPQ=="
-                    },
-                    {
-                        "title": "Pdrain",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZ3g1YWZhb3p3QVQ="
-                    },
-                    {
-                        "title": "Acefile",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSHBrbmtFS3ZXZ2hqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0t6azBLQXhCenFiTFpNSitB"
-                    },
-                    {
-                        "title": "GoFile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxMGhQMjEyRGM9"
-                    },
-                    {
-                        "title": "Mega",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUjIvbXNraU5mZFpTeTRTODZ4bm1Gc2tVZXVsTjBLdW13MVluL3JxRnN3em5IRnJUOGRPTU93bEZNSUhFVTZwT1NOcjZpbmc9PQ=="
-                    },
-                    {
-                        "title": "KFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyay9qNFk3WDZIbEcwWitsaFVBczZxOFpHL2pRPT0="
-                    }
-                ]
-            },
-            {
-                "res": "MKV 1080p",
-                "dataList": [
-                    {
-                        "title": "ODFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aN295M3hUZTZ1bG16ZGRtbmZubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMnhvK2ZLOFhHbHFoZTZFWm1NTHdPS2xuNw=="
-                    },
-                    {
-                        "title": "Pdrain",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZzFPYTdQMDdDVU0="
-                    },
-                    {
-                        "title": "Acefile",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSHBrbmdOTFBHaGhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0t6azBLQXhaeG9mS0VjSm1kMkE9PQ=="
-                    },
-                    {
-                        "title": "GoFile ",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxMGhQMjEyRGM9"
-                    },
-                    {
-                        "title": "Mega",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUm9kU3N6Q1Z2VHB5eW5HRW4zMHY5aVU0WWgwWjNJUG53dEpLbHRvNURueHJMRVptZUJKZEkyR2taV0hFN3hwcThONWpFNHc9PQ=="
-                    },
-                    {
-                        "title": "KFiles",
-                        "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyMnhqc213bVdPZ1dnWitsaFVBczZxOFpHL2pRPT0="
-                    }
-                ]
-            }
-        ],
-        "resultPdrain": [
-            {
-                "res": "Mp4 360p",
-                "links": "https://pixeldrain.com/api/file/z4rjKFoW"
-            },
-            {
-                "res": "Mp4 480p",
-                "links": "https://pixeldrain.com/api/file/47FrwdLd"
-            },
-            {
-                "res": "Mp4 720p",
-                "links": "https://pixeldrain.com/api/file/KpGVR2RC"
-            }
+  "status": 200,
+  "message": "Berhasil Mengambil Data !",
+  "data": {
+    "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
+    "releaseOn": " 12:39 am",
+    "epsNow": "Episode 5 Subtitle Indonesia",
+    "sourceLinks": "https://desustream.me/ondesu3/index.php?id=YS8xd3NBYnFsY0M1ZzliRnFDcjg3TERvbFAxTkoyTkcrUkpPSE4rZkRGdz0=",
+    "nextEpsLinks": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-6-sub-indo/",
+    "AnimeSource": [
+      {
+        "res": "Mp4 360p",
+        "dataList": [
+          {
+            "title": "ODFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNjlrQ2hVYTdiaTNqQU5uM25ubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMHh2SENiWVRZdytnYTZFTjVLLzQ9"
+          },
+          {
+            "title": "Pdrain",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZ1ZwYVAzNTdnWWQ="
+          },
+          {
+            "title": "Acefile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSG9tSGdNSlBPbGhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0l6aE5YUlZkczlMTEE="
+          },
+          {
+            "title": "GoFile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxcnVNQ1I0Q289"
+          },
+          {
+            "title": "Mega",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUmp2Uzd5UWhmS1lTeS9USWU0a0d2bUJZbXVIcFdGOTdROXRla3RhNXNsRCt0VWNML1R1MTMyM05YTTJ3RDhLK05OcENjd1E9PQ=="
+          },
+          {
+            "title": "KFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyQjZqc3k2RXlsamtsWitsaFVBczZxOFpHL2pRPT0="
+          }
         ]
-    }
+      },
+      {
+        "res": "Mp4 480p",
+        "dataList": [
+          {
+            "title": "ODFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNm8xaTVUZmZDcHdDTVBtbVRubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMHh2Yk1iWVRZdytnYTZFTjVLLzQ9"
+          },
+          {
+            "title": "Pdrain",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqbmRuZGZQNDZnVSs="
+          },
+          {
+            "title": "Acefile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSG9tSGdNSlBPa2hqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0l6aFJaUlZkczlMTEE="
+          },
+          {
+            "title": "GoFile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxcnVNQ1I0Q289"
+          },
+          {
+            "title": "Mega",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUnErU2t5Q1IzVDZleTdoY1krWDZZN2tZN21VUkxOKzdpdzV5enVhOVJzMXE3SnNQSFNPc0YrQk5SRmg4VitvbXNFcEt4N3c9PQ=="
+          },
+          {
+            "title": "KFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyNWtXRWNtRitZbEJJditsaFVBczZxOFpHL2pRPT0="
+          }
+        ]
+      },
+      {
+        "res": "Mp4 720p",
+        "dataList": [
+          {
+            "title": "ODFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNnkyeWhVZWJDaXpEWUR6MmJubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMHh2WEdiWVRZdytnYTZFTjVLLzQ9"
+          },
+          {
+            "title": "Pdrain",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZ2hiTDZQL3lEZ2E="
+          },
+          {
+            "title": "Acefile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSG9tSGdNSlBPbmhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0l6aGRUUlZkczlMTEE="
+          },
+          {
+            "title": "GoFile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxcnVNQ1I0Q289"
+          },
+          {
+            "title": "Mega",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUnBPZWV5ZzV1SzUreTZpUVNrMG01amhJU2tnaExLc2JLNEthSHU3UktrUkdIQW9ETGFLMFE5a2NWRFZWdzJJaWhNTGljM1E9PQ=="
+          },
+          {
+            "title": "KFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStxbDNTOHluRzZxc0VBSitsaFVBczZxOFpHL2pRPT0="
+          }
+        ]
+      },
+      {
+        "res": "MKV 480p",
+        "dataList": [
+          {
+            "title": "ODFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNjBsaVJLYWZmMzBXY0IyMnJubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMHhvK2ZLOERPbnVnQXEwQjdhUG9TTTFnPQ=="
+          },
+          {
+            "title": "Pdrain",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZ3dJYm9EVzZCQW0="
+          },
+          {
+            "title": "Acefile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSG9tSGdNSlBPcGhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0l6azBLQXhONXFiTFpNSitB"
+          },
+          {
+            "title": "GoFile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxcnVNQ1I0Q289"
+          },
+          {
+            "title": "Mega",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUm9QK2U5aHB4VUkreTV3RW0rWG1sdkdVcnNsUUxENXJxNnNpY2cvUmtwbHEwTWNIaFQ3NU42RlFRSkhNcjNwZkdFTENnN3c9PQ=="
+          },
+          {
+            "title": "KFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyajJ6Y2oyMW1ZNlUwUCtsaFVBczZxOFpHL2pRPT0="
+          }
+        ]
+      },
+      {
+        "res": "MKV 720p",
+        "dataList": [
+          {
+            "title": "ODFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aNnAyeVpFSzZIL25UTWJrMkxubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMHhvK2ZLOFBFbnVnQXEwQjdhUG9TTTFnPQ=="
+          },
+          {
+            "title": "Pdrain",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqZ2wyVWJEKzdSSU8="
+          },
+          {
+            "title": "Acefile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSG9tSGdNSlBLaGhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0l6azBLQXhCenFiTFpNSitB"
+          },
+          {
+            "title": "GoFile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxcnVNQ1I0Q289"
+          },
+          {
+            "title": "Mega",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUnEvdTA0Z2w4WDRHeTVBMWV3Rm1NcUZFam4yUUxDOHJvd2JUbjBKRlZ6d0NHVm9UN1NLbC9vSE1USjB3SDNiYXlCOEN5bmc9PQ=="
+          },
+          {
+            "title": "KFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyVHdqbzV4VnY4bDNRNCtsaFVBczZxOFpHL2pRPT0="
+          }
+        ]
+      },
+      {
+        "res": "MKV 1080p",
+        "dataList": [
+          {
+            "title": "ODFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVINWpYWTJuNXdCcjZmTHJ1Ym1aN3MwaTVSY2IvMHdtUmN4bXZubEZNSnZrdFpDOWp4dDR5OXZvdDJuQ09iRFlMREU0Z1B3UkpNV0JkMHhvK2ZLOFhHbHFoZTZFWm1NTHdPS2xuNw=="
+          },
+          {
+            "title": "Pdrain",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVZK3l6V3czeHJDN0tDTHJhUmdKNnBqamhxTGFEKzNBSWU="
+          },
+          {
+            "title": "Acefile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVKOFRIVnhuUjhSTGlETDdQUjNJSG9tSGdNSlBLaGhqb2V5bWE5djBJYm9CTlVBZlRwNm82bWhLaDJubHFOVVlHWUVPc0l6azBLQXhCenFiTFpNSitB"
+          },
+          {
+            "title": "GoFile",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVQL1RMYXczMDNBN1REWlBxcnVNQ1I0Q289"
+          },
+          {
+            "title": "Mega",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVGOXpQU2dYWmpSYjJGYkxEUmxldU94aHArZHBHeTNqNEg3aisvcVJVeHRraGxIUGlwcXJEZ3JiZGhwU0dSVXFUTVRvUk4zMGczRVUwUzQ0K1ZiNHlPNnc9PQ=="
+          },
+          {
+            "title": "KFiles",
+            "links": "https://desustream.com/safelink/link/?id=eXRoOHNYVG9UdnVENERYWXluWi9BN2VKYy91ZGd0enoxeVpZYStyL3lpUlM1RCtNcWtNcCtsaFVBczZxOFpHL2pRPT0="
+          }
+        ]
+      }
+    ],
+    "epsList": [
+      {
+        "title": "Episode 12",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-12-sub-indo/"
+      },
+      {
+        "title": "Episode 11",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-11-sub-indo/"
+      },
+      {
+        "title": "Episode 10",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-10-sub-indo/"
+      },
+      {
+        "title": "Episode 9",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-9-sub-indo/"
+      },
+      {
+        "title": "Episode 8",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-8-sub-indo/"
+      },
+      {
+        "title": "Episode 7",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-7-sub-indo/"
+      },
+      {
+        "title": "Episode 6",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-6-sub-indo/"
+      },
+      {
+        "title": "Episode 5",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-5-sub-indo/"
+      },
+      {
+        "title": "Episode 4",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-4-sub-indo/"
+      },
+      {
+        "title": "Episode 3",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-3-sub-indo/"
+      },
+      {
+        "title": "Episode 2",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-2-sub-indo/"
+      },
+      {
+        "title": "Episode 1",
+        "links": "https://otakudesu.cloud/episode/mt-ithd-s2-p1-episode-1-sub-indo/"
+      }
+    ],
+    "resultPdrain": [
+      {
+        "res": "Mp4 360p",
+        "links": "https://pixeldrain.com/api/file/JTt8hGSw"
+      },
+      {
+        "res": "Mp4 480p",
+        "links": "https://pixeldrain.com/api/file/8Zi6iCPT"
+      },
+      {
+        "res": "Mp4 720p",
+        "links": "https://pixeldrain.com/api/file/Gf3fnamp"
+      },
+      {
+        "res": "MKV 480p",
+        "links": "https://pixeldrain.com/api/file/C5rEGAEL"
+      },
+      {
+        "res": "MKV 720p",
+        "links": "https://pixeldrain.com/api/file/FKMuoDGd"
+      },
+      {
+        "res": "MKV 1080p",
+        "links": "https://pixeldrain.com/api/file/wW1eouWt"
+      }
+    ]
+  }
 }
 ```
 
