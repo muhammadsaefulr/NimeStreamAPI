@@ -190,7 +190,7 @@ contoh:
     "message": "Berhasil Mengambil Data !",
     "path": "kaiju-eight-sub-indo",
     "data": {
-        "dataInfo": [
+        "AnimeInfo": [
             {
                 "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/04/Kaijuu-8-gou.jpg",
                 "title": "Kaijuu 8-gou",
@@ -405,7 +405,7 @@ contoh:
 {
     "status": 200,
     "message": "Berhasil Mengambil Data !",
-    "responseData": {
+    "data": {
         "title": "Mushoku Tensei II: Isekai Ittara Honki Dasu Part 2",
         "releaseOn": " 11:07 pm",
         "epsNow": "Episode 7 Subtitle Indonesia",

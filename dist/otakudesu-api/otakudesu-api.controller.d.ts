@@ -4,12 +4,9 @@ export declare class OtakudesuApiController {
     private readonly OtakudesuApiService;
     constructor(OtakudesuApiService: OtakudesuApiService);
     serviceStart(res: Response): Promise<void>;
-    getAnimeHomePage(): Promise<any[]>;
-    getAnimeDetails(judulAnime: string): Promise<{
-        AnimeInfo: any[];
-        AnimeEps: any[];
-    }>;
-    searchAnime(judulAnime: string): Promise<any[]>;
-    getAnimeSourceStream(urlAnimeEps: string): Promise<any>;
-    getAnimeGenre(genre: string, pageNumber: number): Promise<any[]>;
+    getAnimeHomePage(res: Response): Promise<void>;
+    getAnimeDetails(res: Response, judulAnime: string): Promise<void>;
+    searchAnime(res: Response, judulAnime: string): Promise<void>;
+    getAnimeSourceStream(res: Response, urlAnimeEps: string): Promise<void>;
+    getAnimeGenre(res: Response, genre: string, pageNumber: number): Promise<void>;
 }

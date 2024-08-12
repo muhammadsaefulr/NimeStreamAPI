@@ -20,23 +20,47 @@ let OtakudesuApiController = class OtakudesuApiController {
         this.OtakudesuApiService = OtakudesuApiService;
     }
     async serviceStart(res) {
-        res.status(common_1.HttpStatus.OK).json({ message: "Service Status UP, Please read the api docs to start...", apiDocs: "" });
+        res.status(common_1.HttpStatus.OK).json({
+            message: 'Service Status UP, Please read the api docs to start...',
+            apiDocs: '',
+        });
     }
-    async getAnimeHomePage() {
-        return this.OtakudesuApiService.getHomepage();
+    async getAnimeHomePage(res) {
+        const resp = await this.OtakudesuApiService.getHomepage();
+        res
+            .status(common_1.HttpStatus.OK)
+            .json({ status: 200, message: 'Berhasil Mengambil Data !', data: resp });
     }
-    async getAnimeDetails(judulAnime) {
-        return this.OtakudesuApiService.getAnimeDetails(judulAnime.split('/').pop());
+    async getAnimeDetails(res, judulAnime) {
+        const resp = await this.OtakudesuApiService.getAnimeDetails(judulAnime.split('/').pop());
+        res.status(common_1.HttpStatus.OK).json({
+            status: 200,
+            message: 'Berhasil Mengambil Data !',
+            data: resp,
+        });
     }
-    async searchAnime(judulAnime) {
-        return this.OtakudesuApiService.searchAnimeByTitle(judulAnime);
+    async searchAnime(res, judulAnime) {
+        const resp = await this.OtakudesuApiService.searchAnimeByTitle(judulAnime);
+        res.status(common_1.HttpStatus.OK).json({
+            status: 200,
+            message: 'Berhasil Mengambil Data !',
+            data: resp,
+        });
     }
-    async getAnimeSourceStream(urlAnimeEps) {
-        return this.OtakudesuApiService.getAnimeStreamSource(urlAnimeEps);
+    async getAnimeSourceStream(res, urlAnimeEps) {
+        const resp = await this.OtakudesuApiService.getAnimeStreamSource(urlAnimeEps);
+        res.status(common_1.HttpStatus.OK).json({
+            status: 200,
+            message: 'Berhasil Mengambil Data !',
+            data: resp,
+        });
     }
-    async getAnimeGenre(genre, pageNumber) {
+    async getAnimeGenre(res, genre, pageNumber) {
         const pageNum = pageNumber === null || undefined ? 0 : pageNumber;
-        return this.OtakudesuApiService.getGenreAnimeList(genre, pageNum);
+        const resp = await this.OtakudesuApiService.getGenreAnimeList(genre, pageNum);
+        res
+            .status(common_1.HttpStatus.OK)
+            .json({ status: 200, message: 'Berhasil mengambil data !', data: resp });
     }
 };
 exports.OtakudesuApiController = OtakudesuApiController;
@@ -49,37 +73,42 @@ __decorate([
 ], OtakudesuApiController.prototype, "serviceStart", null);
 __decorate([
     (0, common_1.Get)('/homepage'),
+    __param(0, (0, common_1.Res)()),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", []),
+    __metadata("design:paramtypes", [Object]),
     __metadata("design:returntype", Promise)
 ], OtakudesuApiController.prototype, "getAnimeHomePage", null);
 __decorate([
     (0, common_1.Get)('/getanime/:judulAnime'),
-    __param(0, (0, common_1.Param)('judulAnime')),
+    __param(0, (0, common_1.Res)()),
+    __param(1, (0, common_1.Param)('judulAnime')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], OtakudesuApiController.prototype, "getAnimeDetails", null);
 __decorate([
     (0, common_1.Get)('/searchanime'),
-    __param(0, (0, common_1.Query)('judul')),
+    __param(0, (0, common_1.Res)()),
+    __param(1, (0, common_1.Query)('judul')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], OtakudesuApiController.prototype, "searchAnime", null);
 __decorate([
     (0, common_1.Get)('/animesource/:urlAnimeEps'),
-    __param(0, (0, common_1.Param)('urlAnimeEps')),
+    __param(0, (0, common_1.Res)()),
+    __param(1, (0, common_1.Param)('urlAnimeEps')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String]),
+    __metadata("design:paramtypes", [Object, String]),
     __metadata("design:returntype", Promise)
 ], OtakudesuApiController.prototype, "getAnimeSourceStream", null);
 __decorate([
     (0, common_1.Get)('animegenre/:genre/pages/:pageNumber'),
-    __param(0, (0, common_1.Param)('genre')),
-    __param(1, (0, common_1.Param)('pageNumber')),
+    __param(0, (0, common_1.Res)()),
+    __param(1, (0, common_1.Param)('genre')),
+    __param(2, (0, common_1.Param)('pageNumber')),
     __metadata("design:type", Function),
-    __metadata("design:paramtypes", [String, Number]),
+    __metadata("design:paramtypes", [Object, String, Number]),
     __metadata("design:returntype", Promise)
 ], OtakudesuApiController.prototype, "getAnimeGenre", null);
 exports.OtakudesuApiController = OtakudesuApiController = __decorate([
