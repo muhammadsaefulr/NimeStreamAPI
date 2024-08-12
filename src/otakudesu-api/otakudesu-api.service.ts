@@ -26,7 +26,7 @@ export class OtakudesuApiService {
     }
 
     async getAnimeStreamSource(epsUrl: string){
-        const urls = `episodw/${epsUrl}`
+        const urls = `episode/${epsUrl}`
 
         const dataRes = await WebScraperOtakudesu.scrapeVideoAnimeSource(urls)
 

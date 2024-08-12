@@ -76,7 +76,7 @@ bun run dev
 
 ### Homepage Endpoint
 ```
-/main/api/service
+/otakudesu/homepage
 ```
 
 <p>Example Output =></p>
@@ -134,7 +134,7 @@ bun run dev
 
 ### Search Anime
 ```
-/main/api/service/search?q=
+/otakudesu/searchanime?judul=
 ```
 
 <p>Example Output =></p>
@@ -176,7 +176,10 @@ bun run dev
 
 ### Get Anime Episode 
 ```
-/main/api/service/:animetitle
+/otakudesu/getanime/:judulAnime
+contoh:
+
+/otakudesu/getanime/mushoku-tensi-s2-part-2-sub-indo/
 ```
 
 <p>Example Output =></p>
@@ -264,7 +267,11 @@ bun run dev
 
 ### Get Anime Genre
 ```
-/main/api/service/otakudesu/genre/:genreAnime/:page
+/otakudesu/animegenre/:genre/pages/:pageNumber
+contoh: 
+
+/otakudesu/animegenre/adventure/pages/1
+
 ```
 
 <p>Example Output => </p>
@@ -385,7 +392,11 @@ bun run dev
 
 ### Get Anime Stream Source
 ```
-/main/api/service/otakudesu/play/:animeTitleWithEpisode
+/otakudesu/animesource/:urlAnimeEps
+contoh:
+
+/otakudesu/animesource/mt-ithd-s2-p1-episode-5-sub-indo/
+
 ```
 
 <p>Example Output => </p>
