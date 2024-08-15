@@ -83,4 +83,12 @@ export class OtakudesuApiController {
       .status(HttpStatus.OK)
       .json({ status: 200, message: 'Berhasil mengambil data !', data: resp });
   }
+
+  @Get('ongoing-anime/page/:pagenum')
+  async getAnimeOngoing(@Res() res: Response, @Param('pagenum') pageNumber: number) {
+    const pageNum = pageNumber === null || undefined ? 0 : pageNumber;
+    const resp = await this.OtakudesuApiService.getAnimeOngoing(pageNum)
+
+    res.status(HttpStatus.OK).json({status: 200, message: 'Berhasil mengambil data !', data: resp})
+  }
 }

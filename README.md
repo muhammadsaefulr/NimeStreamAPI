@@ -667,3 +667,128 @@ contoh:
 }
 ```
 
+### Get Anime Ongoing list
+```
+/otakudesu/ongoin-anime/page/:pageNum
+contoh:
+
+/otakudesu/ongoing-anime/page/1
+
+```
+
+<p>Example Output => </p>
+
+```json
+{
+  "status": 200,
+  "message": "Berhasil mengambil data !",
+  "data": [
+    {
+      "title": "Isekai Suicide Squad",
+      "epsNow": " Episode 10",
+      "AnimeLinks": "https://otakudesu.cloud/anime/suicide-squad-sub-indo/",
+      "updateAnime": " Kamis",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/06/Isekai-Suicide-Squad.jpg"
+    },
+    {
+      "title": "Shikanoko Nokonoko Koshitantan",
+      "epsNow": " Episode 7",
+      "AnimeLinks": "https://otakudesu.cloud/anime/shikanoko-nokotan-sub-indo/",
+      "updateAnime": " Jumat",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Shikanoko-Nokonoko-Koshitantan.jpg"
+    },
+    {
+      "title": "Sengoku Youko: Senma Konton-hen",
+      "epsNow": " Episode 5",
+      "AnimeLinks": "https://otakudesu.cloud/anime/sengoku-youko-s2-sub-indo/",
+      "updateAnime": " Kamis",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Sengoku-Youko-Senam-Konton.jpg"
+    },
+    {
+      "title": "Oshi no Ko Season 2",
+      "epsNow": " Episode 7",
+      "AnimeLinks": "https://otakudesu.cloud/anime/oshi-ko-s2-sub-indo/",
+      "updateAnime": " Rabu",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/143302.jpg"
+    },
+    {
+      "title": "Tokidoki Bosotto Russia-go de Dereru Tonari no Alya-san",
+      "epsNow": " Episode 7",
+      "AnimeLinks": "https://otakudesu.cloud/anime/tokidoki-bosotto-russia-alya-san-sub-indo/",
+      "updateAnime": " Kamis",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Tokidoki-Bosotto-Russia-go-de-Dereru-Tonari-no-Alya-san.jpg"
+    },
+    {
+      "title": "Maougun Saikyou no Majutsushi wa Ningen datta",
+      "epsNow": " Episode 8",
+      "AnimeLinks": "https://otakudesu.cloud/anime/maougun-saikyou-majutsushi-ningen-sub-indo/",
+      "updateAnime": " Kamis",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/06/142013.jpg"
+    },
+    {
+      "title": "Tasuuketsu",
+      "epsNow": " Episode 5",
+      "AnimeLinks": "https://otakudesu.cloud/anime/tasuketsu-sub-indo/",
+      "updateAnime": " Rabu",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/143629.jpg"
+    },
+    {
+      "title": "Isekai Shikkaku",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/isekai-sikaku-sub-indo/",
+      "updateAnime": " Rabu",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Isekai-Shikkaku.jpg"
+    },
+    {
+      "title": "Katsute Mahou Shoujo to Aku wa Tekitai shiteita.",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/katsute-mahou-sheteita-sub-indo/",
+      "updateAnime": " Selasa",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Katsute-Mahou-Shoujo-to-Aku-wa-Tekitai-shiteita..jpg"
+    },
+    {
+      "title": "Shinmai Ossan Boukensha",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/shinmai-ossan-boukensha-sub-indo/",
+      "updateAnime": " Selasa",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Shinmai-Ossan-Boukensha.jpg"
+    },
+    {
+      "title": "Shy Season 2",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/shy-s2-sub-indo/",
+      "updateAnime": " Senin",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Shy-S2.jpg"
+    },
+    {
+      "title": "Ookami to Koushinryou: Merchant Meets the Wise Wolf",
+      "epsNow": " Episode 19",
+      "AnimeLinks": "https://otakudesu.cloud/anime/ookami-koushinryou-2024-sub-indo/",
+      "updateAnime": " Selasa",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/04/Ookami-to-Koushinryou.jpg"
+    },
+    {
+      "title": "Na Nare Hana Nare",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/nare-hana-sub-indo/",
+      "updateAnime": " Senin",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/143526.jpg"
+    },
+    {
+      "title": "Mayonaka Punch",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/myonka-punch-sub-indo/",
+      "updateAnime": " Random",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/Mayonaka-Punch.jpg"
+    },
+    {
+      "title": "VTuber Nandaga Haishin Kiri Wasuretara Densetsu ni Natteta",
+      "epsNow": " Episode 6",
+      "AnimeLinks": "https://otakudesu.cloud/anime/vtuber-nankiritara-sub-indo/",
+      "updateAnime": " Senin",
+      "thumbnailImage": "https://otakudesu.cloud/wp-content/uploads/2024/07/VTuber-Nandaga-Haishin-Kiri-Wasuretara-Densetsu-ni-Natteta.jpg"
+    }
+  ]
+}
+```
+

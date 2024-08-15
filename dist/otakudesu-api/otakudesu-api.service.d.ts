@@ -7,4 +7,5 @@ export declare class OtakudesuApiService {
     searchAnimeByTitle(judulAnime: string): Promise<any[]>;
     getAnimeStreamSource(epsUrl: string): Promise<any>;
     getGenreAnimeList(pathname: string, page: number): Promise<any[]>;
+    getAnimeOngoing(page: number): Promise<any>;
 }

@@ -8,6 +8,7 @@ declare class WebScraperOtakudesu {
         AnimeEps: any[];
     }>;
     static scrapeSearchAnimeByTitle(pathUri: string): Promise<any[]>;
+    static scrapeOngoingAnime(pathUri: string): Promise<any>;
     static scrapeVideoAnimeSource(pathUri: string): Promise<any>;
 }
 export default WebScraperOtakudesu;

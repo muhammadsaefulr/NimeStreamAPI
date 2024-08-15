@@ -9,4 +9,5 @@ export declare class OtakudesuApiController {
     searchAnime(res: Response, judulAnime: string): Promise<void>;
     getAnimeSourceStream(res: Response, urlAnimeEps: string): Promise<void>;
     getAnimeGenre(res: Response, genre: string, pageNumber: number): Promise<void>;
+    getAnimeOngoing(res: Response, pageNumber: number): Promise<void>;
 }

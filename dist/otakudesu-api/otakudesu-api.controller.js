@@ -65,6 +65,11 @@ let OtakudesuApiController = class OtakudesuApiController {
             .status(common_1.HttpStatus.OK)
             .json({ status: 200, message: 'Berhasil mengambil data !', data: resp });
     }
+    async getAnimeOngoing(res, pageNumber) {
+        const pageNum = pageNumber === null || undefined ? 0 : pageNumber;
+        const resp = await this.OtakudesuApiService.getAnimeOngoing(pageNum);
+        res.status(common_1.HttpStatus.OK).json({ status: 200, message: 'Berhasil mengambil data !', data: resp });
+    }
 };
 exports.OtakudesuApiController = OtakudesuApiController;
 __decorate([
@@ -114,6 +119,14 @@ __decorate([
     __metadata("design:paramtypes", [Object, String, Number]),
     __metadata("design:returntype", Promise)
 ], OtakudesuApiController.prototype, "getAnimeGenre", null);
+__decorate([
+    (0, common_1.Get)('ongoing-anime/page/:pagenum'),
+    __param(0, (0, common_1.Res)()),
+    __param(1, (0, common_1.Param)('pagenum')),
+    __metadata("design:type", Function),
+    __metadata("design:paramtypes", [Object, Number]),
+    __metadata("design:returntype", Promise)
+], OtakudesuApiController.prototype, "getAnimeOngoing", null);
 exports.OtakudesuApiController = OtakudesuApiController = __decorate([
     (0, common_1.Controller)('otakudesu'),
     __metadata("design:paramtypes", [otakudesu_api_service_1.OtakudesuApiService])

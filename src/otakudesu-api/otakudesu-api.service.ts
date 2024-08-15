@@ -39,4 +39,11 @@ export class OtakudesuApiService {
 
         return dataRes
     }
+
+    async getAnimeOngoing(page: number){
+        const urls = `ongoing-anime/page/${page}`
+        const dataRes = await WebScraperOtakudesu.scrapeOngoingAnime(urls)
+
+        return dataRes
+    }
 }

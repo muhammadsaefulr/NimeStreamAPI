@@ -34,6 +34,11 @@ let OtakudesuApiService = class OtakudesuApiService {
         const dataRes = await otakudesuWebScrapper_1.default.scrapeGenreAnimes(urls);
         return dataRes;
     }
+    async getAnimeOngoing(page) {
+        const urls = `ongoing-anime/page/${page}`;
+        const dataRes = await otakudesuWebScrapper_1.default.scrapeOngoingAnime(urls);
+        return dataRes;
+    }
 };
 exports.OtakudesuApiService = OtakudesuApiService;
 exports.OtakudesuApiService = OtakudesuApiService = __decorate([
