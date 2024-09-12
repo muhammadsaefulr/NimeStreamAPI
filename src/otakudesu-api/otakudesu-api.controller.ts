@@ -10,7 +10,7 @@ export class OtakudesuApiController {
   async serviceStart(@Res() res: Response) {
     res.status(HttpStatus.OK).json({
       message: 'Service Status UP, Please read the api docs to start...',
-      apiDocs: '',
+      apiDocs: 'https://github.com/muhammadsaefulr/NimeStreamAPI',
     });
   }
 
