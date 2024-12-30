@@ -22,7 +22,7 @@ let OtakudesuApiController = class OtakudesuApiController {
     async serviceStart(res) {
         res.status(common_1.HttpStatus.OK).json({
             message: 'Service Status UP, Please read the api docs to start...',
-            apiDocs: '',
+            apiDocs: 'https://github.com/muhammadsaefulr/NimeStreamAPI',
         });
     }
     async getAnimeHomePage(res) {

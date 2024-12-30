@@ -20,7 +20,7 @@ let AppController = class AppController {
         this.appService = appService;
     }
     async serviceStart(res) {
-        res.status(common_1.HttpStatus.OK).json({ message: "Service Status UP, Please read the api docs to start..." });
+        res.status(common_1.HttpStatus.OK).json({ message: "Service Status UP, Please read the api docs to start...", apidocs: "https://github.com/muhammadsaefulr/NimeStreamAPI" });
     }
 };
 exports.AppController = AppController;
